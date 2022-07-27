@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="images/logotipo.ico" type="image/x-icon">
+    <title>Portfólio Paulo</title>
+</head>
+<body>
+    <header>
+        <figure class="logo-container">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/logotipo.png">
+                <source media="(min-width: 580px)" srcset="images/logotipo-g.png">
+                <source media="(min-width: 500px)" srcset="images/logotipo-m.png">
+                <img src="images/logotipo-p.png" alt="logotipo">
+            </picture>
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+                <li><a href="https://docs.google.com/document/d/1PHZ4_jWpHoMjoTnxsCULALqnyOgbB2tYqwPLoOcQSyM/edit?usp=sharing" target="_blank">Currículo</a></li>
+            </ul>
+        </nav>
+        <div class="container-menu">
+            <i class="fa-solid fa-bars btn-menu"></i>
+            <div class="menu-mobile">
+                <i class="fa-solid fa-xmark btn-close"></i>
+                <ul>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                    <li><a href="#">Currículo</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="box-aboutme-technologies">
+        <section class="about-me-container">
+            <h1>Sobre Mim</h1>
+            <figure class="myphoto">
+                <picture>
+                    <source media="(min-width: 425px)" srcset="images/foto-perfil-m.jpg">
+                    <img src="images/foto-perfil-p.jpg" alt="Paulo Renato" title="Paulo Renato">
+                </picture>
+            </figure>
+            <p>Sou um programador júnior com conhecimentos em HTML, CSS, PHP, JavaScript e MySQL. Completei o curso <strong>Técnico de Internet para Web</strong> do Senai MG. Busco mais conhecimento, e minha primeira oportunidade na área combinado com o conhecimento que adquiri no curso técnico. Tenho facilidade em aprender, e busco conhecimento constantemente.</p>
+        </section>
+        <hr>
+        <section class="technologies-container">
+            <h1>Tecnologias</h1>
+            <div class="carrosel-container">
+                <i class="fa-solid fa-angle-left arrow-left"></i>
+                <div class="carrosel">
+                    <div class="technology selected">
+                        <h3>HTML</h3>
+                        <figure>
+                            <picture>
+                                <source media="(min-width: 1000px)" srcset="images/logos-tecnos/html-img/html-m.png">
+                                <img src="images/logos-tecnos/html-img/html-p.png" alt="HTML">
+                            </picture>
+                        </figure>
+                    </div>
+                    <div class="technology">
+                        <h3>CSS</h3>
+                        <figure>
+                            <picture>
+                                <source media="(min-width: 1000px)" srcset="images/logos-tecnos/css-img/css-m.png">
+                                <img src="images/logos-tecnos/css-img/css-p.png" alt="CSS">
+                            </picture>
+                        </figure>
+                    </div>
+                    <div class="technology">
+                        <h3>JavaScript</h3>
+                        <figure>
+                            <picture>
+                                <source media="(min-width: 1000px)" srcset="images/logos-tecnos/js-img/javascript-m.png">
+                                <img src="images/logos-tecnos/js-img/javascript-p.png" alt="JS">
+                            </picture>
+                        </figure>
+                    </div>
+                    <div class="technology">
+                        <h3>PHP</h3>
+                        <figure>
+                            <picture>
+                                <source media="(min-width: 1000px)" srcset="images/logos-tecnos/php-img/php-m.png">
+                                <img src="images/logos-tecnos/php-img/php-p.png" alt="PHP">
+                            </picture>
+                        </figure>
+                    </div>
+                    <div class="technology">
+                        <h3>MYSQL</h3>
+                        <figure>
+                            <picture>
+                                <source media="(min-width: 1000px)" srcset="images/logos-tecnos/mysql-img/mysql-m.png">
+                                <img src="images/logos-tecnos/mysql-img/mysql-p.png" alt="MYSQL">
+                            </picture>
+                        </figure>
+                    </div>
+                    <div class="technology">
+                        <h3>GIT</h3>
+                        <figure>
+                            <picture>
+                                <source media="(min-width: 1000px)" srcset="images/logos-tecnos/git-img/git-m.png">
+                                <img src="images/logos-tecnos/git-img/git-p.png" alt="GIT">
+                            </picture>
+                        </figure>
+                    </div>
+                </div>
+                <i class="fa-solid fa-angle-right arrow-right"></i>
+            </div>
+        </section>
+    </div>
+
+    <section id="projetos" class="projects-container">
+        <h1>Projetos</h1>
+        <div class="project-box">
+            <div class="project">
+                <h3>Top Bolos</h3>
+                <p>Projeto/SA (situação de aprendizagem) que tinha o foco no front-end, com o objetivo de criar um site de bolos, com carrossel e menus. As tecnologias usadas pela minha parte são: <strong>HTML</strong>, <strong>CSS</strong>, <strong>PHP</strong> e usei na parte do carrossel o framework <strong>Bootstrap</strong>.</p>
+                <a href="http://www.topbolos.epizy.com/" target="_blank" class="link-site">Link do site</a>
+            </div>
+            <div class="project">
+                <h3>Cordel Moderno</h3>
+                <p>Home Page sobre o cordel moderno do autor Milton Duarte, com o objetivo de praticar a propriedade CSS <strong>background-image</strong>, e <strong>media-queries</strong> para a responsividade. Tecnologias usadas são: <strong>HTML</strong>, <strong>CSS</strong>.</p>
+                <a href="https://paulorenato21.github.io/CordelModerno/" target="_blank" class="link-site">Link do site</a>
+            </div>
+
+            <div class="project not-show">
+                <h3>Hotel Paraíso</h3>
+                <p>Home Page sobre o hotel paraíso(fictício), feito com o objetivo de praticar e usar um dos layouts do CSS3 moderno que é o FlexBox. Pagina também é responsiva usando media-queries. Tecnologias usadas são: <strong>HTML</strong>, <strong>CSS</strong> / <strong>FlexBox</strong>.</p>
+                <a href="https://paulorenato21.github.io/hotel-paraiso/" target="_blank" class="link-site">Link do site</a>
+            </div>
+
+            <div class="project not-show">
+                <h3>WildBeast</h3>
+                <p>Home Page sobre as características dos lobos cinzas, feito com o objetivo de praticar outro layout do CSS3 moderno o <strong>Grid layout</strong>. Página também é responsiva usando media-queries. Tecnologias usadas são: <strong>HTML</strong>, <strong>CSS</strong> / <strong>GRID</strong>.</p>
+                <a href="https://paulorenato21.github.io/website-wildBeast/" target="_blank" class="link-site">Link do site</a>
+            </div>
+
+            <button class="show-more">+ Projetos</button>
+        </div>
+    </section>
+
+    <footer>
+        <div id="contatos" class="social-media">
+            <a href="https://www.linkedin.com/in/paulo-renato-7b03b119a/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/PauloRenato21" target="_blank"><i class="fa-brands fa-github-square"></i></a>
+            <a href="mailto:paulorenato401@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p>Paulo Renato 2022</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/b2f2f51a0d.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
